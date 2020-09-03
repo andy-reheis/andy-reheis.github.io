@@ -5,7 +5,9 @@ import { blogSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function Blogs() {
-  return (
+  // Currently I dont want to show this section
+  return null;
+/*   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="blogs">
       <div className="blog-header">
@@ -30,5 +32,5 @@ export default function Blogs() {
       </div>
     </div>
     </Fade>
-  );
+  ); */
 }

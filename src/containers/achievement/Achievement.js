@@ -9,7 +9,9 @@ export default function Achievement() {
     var win = window.open(url, "_blank");
     win.focus();
   }
-  return (
+// Currently I dont want to show this section
+return null;
+/*   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="achievements">
       <div className="achievement-main-div">
@@ -34,5 +36,5 @@ export default function Achievement() {
       </div>
     </div>
     </Fade>
-  );
+  ); */
 }

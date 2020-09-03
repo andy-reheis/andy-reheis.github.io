@@ -5,7 +5,9 @@ import { talkSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function Talks() {
-  return (
+  // Currently I dont want to show this section
+  return null;
+/*   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="talks">
       <div className="talk-header">
@@ -29,5 +31,5 @@ export default function Talks() {
       </div>
     </div>
     </Fade>
-  );
+  ); */
 }

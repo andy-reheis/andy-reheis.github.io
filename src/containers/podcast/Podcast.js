@@ -4,7 +4,9 @@ import { podcastSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function Podcast() {
-  return (
+  // Currently I dont want to show this section
+  return null;
+/*   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main">
       <div className="podcast-header">
@@ -22,5 +24,5 @@ export default function Podcast() {
       </div>
     </div>
     </Fade>
-  );
+  ); */
 }

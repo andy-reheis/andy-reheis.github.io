@@ -8,7 +8,9 @@ import { openSource, socialMediaLinks } from "../../portfolio";
 
 
 export default function Projects() {
-  const GithubRepoCard = lazy(() => import('../../components/githubRepoCard/GithubRepoCard'));
+// Currently I dont want to show this section
+  return null;
+/*   const GithubRepoCard = lazy(() => import('../../components/githubRepoCard/GithubRepoCard'));
   const FailedLoading = () => null ;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
@@ -90,5 +92,5 @@ export default function Projects() {
   );
 } else{
     return(<FailedLoading />);
-  }
+  } */
 }

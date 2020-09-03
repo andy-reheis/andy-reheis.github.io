@@ -17,18 +17,16 @@ export default function Greeting() {
               {" "}
               {greeting.title}
               {" "}
-              <span className="wave-emoji">{emoji("👋")}</span>
             </h1>
             <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
             <SocialMedia />
             <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
             </div>
           </div>
         </div>
         <div className="greeting-image-div">
-          <img alt="saad sitting on table" src={require("../../assets/images/manOnTable.svg")}></img>
+          <img alt="personOnTable" src={require("../../assets/images/manOnTable.svg")}></img>
         </div>
       </div>
     </div>

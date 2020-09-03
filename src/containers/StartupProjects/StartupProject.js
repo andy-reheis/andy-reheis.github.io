@@ -9,7 +9,9 @@ export default function StartupProject() {
     win.focus();
   }
 
-  return (
+// Currently I dont want to show this section
+  return null;
+/*   return (
     <Fade bottom duration={1000} distance="20px">
     <div className="main" id="projects">
       <div>
@@ -30,5 +32,5 @@ export default function StartupProject() {
       </div>
     </div>
     </Fade>
-  );
+  ); */
 }
