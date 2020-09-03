@@ -138,7 +138,7 @@ const workExperiences = {
       desc: "I am currently studying computer science at University of Innsbruck and will graduate in 2021. Additionally to my studies I am working part-time at a local software company.",
     },
     {
-      role: "Intership",
+      role: "Internship",
       company: "Energiefreund, ZET & BZR GmbH",
       companylogo: require("./assets/images/energiefreundLogo.png"),
       date: "July 2019 - August 2019",
