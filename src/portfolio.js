@@ -27,8 +27,7 @@ const skillsSection = {
   title: "What I do and what I am interested in",
   subTitle: "STUDENT WHO WANTS TO EXPLORE NEW FRAMEWORKS AND PROGRAMMING LANGUAGES",
   skills: [
-    "I do ...",
-    "Develop an interactive Frontend for heating controls",
+    "I have to write this text ... ",
 /*     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean") */
