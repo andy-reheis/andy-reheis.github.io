@@ -17,7 +17,7 @@ const greeting = {
 const socialMediaLinks = {
 
   github: "https://github.com/andy-reheis/",
-  linkedin: "INSERT LINKEDINID",
+  linkedin: "andreas-reheis",
   gmail: "andreas.reheis[at]gmail.com",
 };
 
