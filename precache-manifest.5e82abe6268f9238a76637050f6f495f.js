@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7683a4b7a0b2577f18dbc63643cf5e29",
+    "revision": "24eb889e445c6007102c10f6f7fed682",
     "url": "/index.html"
   },
   {
-    "revision": "dc77d2ca16c7f8f1b4fd",
+    "revision": "7b418113d8a711cf82c2",
     "url": "/static/css/3.879e9400.chunk.css"
   },
   {
-    "revision": "51abb9482a594eb73922",
-    "url": "/static/css/main.d335e0e9.chunk.css"
+    "revision": "30152c9a6824eb186b36",
+    "url": "/static/css/main.af65a83b.chunk.css"
   },
   {
-    "revision": "0321c96fb2f9756d2d93",
-    "url": "/static/js/2.7e5e42c7.chunk.js"
+    "revision": "94324f6811ff73f14a62",
+    "url": "/static/js/2.54ad35cc.chunk.js"
   },
   {
     "revision": "71772b085033e92f89cdfb3071333458",
-    "url": "/static/js/2.7e5e42c7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.54ad35cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dc77d2ca16c7f8f1b4fd",
-    "url": "/static/js/3.dabc567e.chunk.js"
+    "revision": "7b418113d8a711cf82c2",
+    "url": "/static/js/3.a5ca48f2.chunk.js"
   },
   {
-    "revision": "51abb9482a594eb73922",
-    "url": "/static/js/main.f09cd254.chunk.js"
+    "revision": "30152c9a6824eb186b36",
+    "url": "/static/js/main.f0d4d729.chunk.js"
   },
   {
-    "revision": "a20b07ecd4c7be976511",
-    "url": "/static/js/runtime-main.150a8219.js"
+    "revision": "de7a05efaeb710c83175",
+    "url": "/static/js/runtime-main.aba6ba30.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -46,6 +46,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "59389695208d7454c6607bed51ed4316",
     "url": "/static/media/developerActivity.59389695.svg"
+  },
+  {
+    "revision": "7b34884bb0f94446c8832051ee0c9368",
+    "url": "/static/media/energiefreundLogo.7b34884b.png"
+  },
+  {
+    "revision": "13780cdd0144cacdef25486e2c2503f8",
+    "url": "/static/media/linksCardBack.13780cdd.svg"
   },
   {
     "revision": "25bf045ca257e971124f3997d89f321c",
