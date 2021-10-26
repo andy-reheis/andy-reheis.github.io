@@ -9,13 +9,12 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Andreas Reheis",
   title: "Hello, my name is Andreas!",
-  subTitle: "Computer Science student with main focus on Java & Spring and JavaScript & HTML5 & CSS"
+  subTitle: "Computer Science student working part-time as Full-Stack-Developer with interests in IoT, JS and Java. Currently I am interested in Web3 projects by _buildspace. With this projects I built some frontends with React using smart contracts on the Ethereum blockchain (Rinkeby Test Network)."
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-
   github: "https://github.com/andy-reheis/",
   linkedin: "https://www.linkedin.com/in/andreas-reheis/",
   gmail: "andreas.reheis[at]gmail.com",
@@ -27,10 +26,7 @@ const skillsSection = {
   title: "What I do and what I am interested in",
   subTitle: "STUDENT WHO WANTS TO EXPLORE NEW FRAMEWORKS AND PROGRAMMING LANGUAGES",
   skills: [
-    "I have to write this text ... ",
-/*     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean") */
+    "During my computer science studies I got to know many programming languages like C (with OMP and OpenCL), Python, R and Haskell. Additionially to that we build two projects with Java and Spring. Things like Alogrithms and Datastructures as well as Docker were included as 'basics' in the studies. At the moment I am doing my bachelor thesis on a engine for executing worklows on AWS Lambda functions. Within that engine I try to improve the data-flow and extend the defined Abstract Function Coreography Language (AFCL). The engine also supports several other cloud services like Google Cloud or IBM Cloud. In my free time I am doing nice Node.js projects on _buildspace. Within these projects I use Solidity to build smart contracts on the Ethereum Blockchain (for the moment only on the Rinkeby Test Network to avoid to burn money on this applications).",
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -68,6 +64,26 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "C",
       fontAwesomeClassname: "fab fa-cuttlefish"
+    },
+    {
+      skillName: "Solidity",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Web3",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
     }
   ]
 };
@@ -85,27 +101,16 @@ const techStack = {
       progressPercentage: "60%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "C with PThreads or OMP",
-      progressPercentage: "70%"
-    },
-    {
       Stack: "JavaScript | HTML | CSS",
       progressPercentage: "85%"
     },
     {
       Stack: "Python",
       progressPercentage: "40%"
-    },    {
-      Stack: "Algorithms and DataStructures",
-      progressPercentage: "66%"
     },
     {
       Stack: "Docker",
       progressPercentage: "33%"
-    },
-    {
-      Stack: "Haskell",
-      progressPercentage: "20%"
     }
   ]
 };
@@ -117,11 +122,11 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Front-End Designer | Software Developer",  
+      role: "Full-Stack Developer",  
       company: "Energiefreund, ZET & BZR GmbH",
       companylogo: require("./assets/images/energiefreundLogo.png"),
       date: "August 2019 - present",
-      desc: "Working at this company part-time, parellel to my study at University Innsbruck. Main part is to develop a Front-End for heating controls. Technologies used in this job:",
+      desc: "Working at this company part-time / full-time (depending on what my studies allowed), parellel to my study at University Innsbruck. Main part is to develop a Front-End for heating controls. Technologies used in this job:",
       descBullets: [
         "atvise [For Front-End] with Html5 | CSS | JavaScript",
         "OPC UA [data transfer]",
@@ -131,10 +136,10 @@ const workExperiences = {
     },
     {
       role: "Student",
-      company: "University Of Innsbruck",
+      company: "University of Innsbruck",
       companylogo: require("./assets/images/uniIbkLogo.jpg"),
       date: "October 2018 - present",
-      desc: "I am currently studying computer science at University of Innsbruck and will graduate in 2021. Additionally to my studies I am working part-time at a local software company.",
+      desc: "I am currently studying computer science at University of Innsbruck and will graduate at the end of 2021 or beginning 2022. Feel free to click on the link below to read the curriculum of my studies.",
     },
     {
       role: "Internship",
@@ -251,6 +256,38 @@ const talkSection = {
   ] */
 };
 
+const linksSection = {
+  title: "Links",
+  subtitle: "Some links you might find useful",
+
+  links: [
+    {
+      title: "Bachelor studies (english version)",
+      subtitle: "Curriculum",
+      slides_url: "https://www.uibk.ac.at/fakultaeten-servicestelle/pruefungsreferate/studienplaene/english-version/ba-informatik-19w_en.pdf",
+      buttonName: "Curriculum"
+    },
+    {
+      title: "Bachelor studies (german version)",
+      subtitle: "Curriculum",
+      slides_url: "https://www.uibk.ac.at/universitaet/mitteilungsblatt/2018-2019/19/mitteil.pdf",
+      buttonName: "Curriculum"
+    },
+    {
+      title: "The place where I gathered experience",
+      subtitle: "Energiefreund Homepage",
+      slides_url: "https://www.energie-freund.at/",
+      buttonName: "Homepage"
+    },
+    {
+      title: "Some nice Inspiration for projects",
+      subtitle: "Buildspace Homepage",
+      slides_url: "https://buildspace.so/",
+      buttonName: "Homepage"
+    }
+  ]
+};
+
 // Podcast Section
 
 // Currently I dont want to show this section
@@ -264,7 +301,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: "Get in touch",
-  subtitle: "if you want to discuss a new project or just talk",
+  subtitle: "If you want to discuss a new project or just talk",
   email_address: "andreas.reheis[at]gmail.com"
 };
 
@@ -272,4 +309,4 @@ const contactInfo = {
 
 const twitterDetails = {};
 
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, linksSection, podcastSection, contactInfo , twitterDetails};

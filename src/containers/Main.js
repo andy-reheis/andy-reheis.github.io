@@ -10,6 +10,7 @@ import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
 import Contact from "./contact/Contact";
 import Footer from "../components/footer/Footer";
+import Links from "./links/Links";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Top from "./topbutton/Top";
@@ -29,6 +30,7 @@ export default class Main extends Component {
         <StartupProject />
         <Achievement />
         <Blogs />
+        <Links />
         <Talks />
         <Twitter />
         <Podcast />
