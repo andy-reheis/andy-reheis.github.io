@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24eb889e445c6007102c10f6f7fed682",
+    "revision": "961e0a7ef41cf97e14448251d46becbc",
     "url": "/index.html"
   },
   {
-    "revision": "7b418113d8a711cf82c2",
+    "revision": "082fc6e67547e3b7b857",
     "url": "/static/css/3.879e9400.chunk.css"
   },
   {
-    "revision": "30152c9a6824eb186b36",
+    "revision": "d201d9b481b84218a715",
     "url": "/static/css/main.af65a83b.chunk.css"
   },
   {
-    "revision": "94324f6811ff73f14a62",
-    "url": "/static/js/2.54ad35cc.chunk.js"
+    "revision": "9a1ffa0e8ae3d27c1d98",
+    "url": "/static/js/2.d791c084.chunk.js"
   },
   {
     "revision": "71772b085033e92f89cdfb3071333458",
-    "url": "/static/js/2.54ad35cc.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d791c084.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b418113d8a711cf82c2",
-    "url": "/static/js/3.a5ca48f2.chunk.js"
+    "revision": "082fc6e67547e3b7b857",
+    "url": "/static/js/3.4a8238b7.chunk.js"
   },
   {
-    "revision": "30152c9a6824eb186b36",
-    "url": "/static/js/main.f0d4d729.chunk.js"
+    "revision": "d201d9b481b84218a715",
+    "url": "/static/js/main.5fd43c54.chunk.js"
   },
   {
-    "revision": "de7a05efaeb710c83175",
-    "url": "/static/js/runtime-main.aba6ba30.js"
+    "revision": "45df577a4b90a24083be",
+    "url": "/static/js/runtime-main.4cd766d9.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "c4ad603a7f2cc1dfd033de535b04e32a",
+    "url": "/static/media/casablancaLogo.c4ad603a.png"
   },
   {
     "revision": "68e841388612be0c5143e2932fb77d4f",
