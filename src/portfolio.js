@@ -122,10 +122,21 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Intership as Frontend Developer",  
+      company: "Casablanca Hotelsoftware GmbH",
+      companylogo: require("./assets/images/casablancaLogo.png"),
+      date: "April 2022 - July 2022",
+      desc: "During the internship my task was to develop a web component to scan documents. With an Azure Pipeline the component was built and added to the company's npm-feed.",
+      descBullets: [
+        "Vue3 + TypeScript [Developing a web component]",
+        "Azure Pipelines"
+      ]
+    },
+    {
       role: "Full-Stack Developer",  
       company: "Energiefreund, ZET & BZR GmbH",
       companylogo: require("./assets/images/energiefreundLogo.png"),
-      date: "August 2019 - present",
+      date: "August 2019 - December 2021",
       desc: "Working at this company part-time / full-time (depending on what my studies allowed), parellel to my study at University Innsbruck. Main part is to develop a Front-End for heating controls. Technologies used in this job:",
       descBullets: [
         "atvise [For Front-End] with Html5 | CSS | JavaScript",
